@@ -20,7 +20,7 @@ export default class CustomizerPage extends LitElement {
   }
   constructor(args) {
     super(args);
-    this.apiUrl = 'http://localhost:5002/api/customizer';
+    this.apiUrl = 'http://0.0.0.0:5002/api/customizer';
   }
 
   getModules() {
